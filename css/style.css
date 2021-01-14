@@ -24,7 +24,7 @@ h4{
   font-weight: 900;
 }
 header, .second-section{
-  background-color: rgb(255, 226, 216);
+  background-color: rgb(255, 235, 228);
 }
 .image-container{
   background-color: rgb(216, 216, 216);
@@ -51,4 +51,7 @@ i{
 }
 .custom-button:hover{
   background-image: linear-gradient(180deg, tomato, orange);
+}
+.no-border{
+  border:0;
 }
