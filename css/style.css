@@ -1,11 +1,17 @@
-.product-image{
-  height:400px;
+*{
+  padding:0;
+  margin:0;
 }
 
+.image-container{
+  height:325px;
+}
+.image-container img{
+  width:auto;
+  height:100%;
+}
 
-
-@media (max-width:790px){
-  .product-image{
-    height:auto;
-  }
+.single-item img{
+  width:100px;
+  height: 100px;
 }
