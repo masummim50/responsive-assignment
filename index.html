@@ -4,215 +4,246 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <!-- bootstrap stylesheet -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- fontawesome stylesheet -->
   <link rel="stylesheet" href="css/all.css">
+  <!-- google fonts links -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <!-- custom css -->
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <!-- header section will be sticky so doesn't contain the next section in it-->
   <header class="sticky-top">
     <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid">
-        <a class="navbar-brand w-50" href="#">
-          <img class="w-75" src="icons/logo.png" alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item ms-3">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item ms-3">
-              <a class="nav-link" href="#shoes">Product</a>
-            </li>
-            <li class="nav-item ms-3">
-              <a class="nav-link" href="#bags">About us</a>
-            </li>
-            <li class="nav-item ms-3">
-              <a class="nav-link" href="#subscribe" tabindex="-1" aria-disabled="true">Contact Us</a>
-            </li>
-          </ul>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand w-50" href="#">
+            <img class="w-75" src="icons/logo.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item ms-3">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item ms-3">
+                <a class="nav-link" href="#jackets">Product</a>
+              </li>
+              <li class="nav-item ms-3">
+                <a class="nav-link" href="#about">About us</a>
+              </li>
+              <li class="nav-item ms-3">
+                <a class="nav-link" href="#contact" tabindex="-1" a>Contact Us</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-  </div>
+      </nav>
+    </div>
   </header>
 
+  <!-- Main part of the site starts from here -->
   <main>
-  <section class="second-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-7 d-flex align-items-center">
-          <div>
-            <h1><span class="custom-text-color">BE THE PENGUINS</span><br> OF WINTER</h1>
-            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia culpa voluptate placeat!</h5>
-            <button class="btn custom-button btn-lg"><i class="fas fa-shopping-cart"></i>Buy Now</button>
+    <section class="second-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 d-flex align-items-center">
+            <div>
+              <h1><span class="custom-text-color">BE THE PENGUINS</span><br> OF WINTER</h1>
+              <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia culpa voluptate placeat!</h5>
+              <button class="btn custom-button btn-lg mt-4"><i class="fas fa-shopping-cart"></i>Buy Now</button>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <img src="images/Group 33102.png" class="d-block w-100" alt="...">
           </div>
         </div>
-        <div class="col-md-5">
-          <img src="images/Group 33102.png" class="d-block w-100" alt="...">
+      </div>
+    </section>
+
+  <!-- Women jacket section starts here-->
+  
+  
+    <div id="jackets" class="container mt-5 mb-5">
+      <h2 class="jacket-header mt-5">Women Jacket</h2>
+      <div class="row g-3">
+        <div class="col">
+          <div class="card no-border h-100 shadow">
+            <div class="image-container d-flex p-2 m-3 align-items-center justify-content-center">
+              <img src="images/dress4.png" alt="">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Yellow Coat Jacket </h3>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum?</p>
+
+            </div>
+            <div class="card-footer no-border d-flex align-items-center justify-content-between">
+              <h4 class="custom-text-color">$230</h4>
+              <button class="btn custom-button"><i class="fas fa-shopping-cart"></i>Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card no-border h-100 shadow">
+            <div class="image-container d-flex p-2 m-3 align-items-center justify-content-center">
+              <img src="images/dress3.png" alt="">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Ladies Jacket </h3>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum?</p>
+
+            </div>
+            <div class="card-footer no-border d-flex align-items-center justify-content-between">
+              <h4 class="custom-text-color">$230</h4>
+              <button class="btn custom-button"><i class="fas fa-shopping-cart"></i>Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card no-border h-100 shadow">
+            <div class="image-container d-flex p-2 m-3 align-items-center justify-content-center">
+              <img src="images/dress2.png" alt="">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Woman Leather Jacket </h3>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum?</p>
+
+            </div>
+            <div class="card-footer no-border d-flex align-items-center justify-content-between">
+              <h4 class="custom-text-color">$230</h4>
+              <button class="btn custom-button"><i class="fas fa-shopping-cart"></i>Buy Now</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </section>
+
+
+  <!-- men jacket section starts here -->
+    <div class="container mt-5 mb-5">
+      <h2 class="jacket-header mt-5">Man Jacket</h2>
+      <div class="row g-3">
+        <div class="col">
+          <div class="card no-border h-100 shadow">
+            <div class="image-container d-flex p-2 m-3 align-items-center justify-content-center">
+              <img src="images/dress1.png" alt="">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Snowboard Jacket Mens</h3>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum?</p>
+
+            </div>
+            <div class="card-footer no-border d-flex align-items-center justify-content-between">
+              <h4 class="custom-text-color">$230</h4>
+              <button class="btn custom-button"><i class="fas fa-shopping-cart"></i>Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card no-border h-100 shadow">
+            <div class="image-container d-flex p-2 m-3 align-items-center justify-content-center">
+              <img src="images/dress6.png" alt="">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Man Leather Jackets</h3>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum?</p>
+
+            </div>
+            <div class="card-footer no-border d-flex align-items-center justify-content-between">
+              <h4 class="custom-text-color">$230</h4>
+              <button class="btn custom-button"><i class="fas fa-shopping-cart"></i>Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card no-border h-100 shadow">
+            <div class="image-container d-flex p-2 m-3 align-items-center justify-content-center">
+              <img src="images/dress5.png" alt="">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Man Casual Jackets</h3>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum?</p>
+
+            </div>
+            <div class="card-footer no-border d-flex align-items-center justify-content-between">
+              <h4 class="custom-text-color">$230</h4>
+              <button class="btn custom-button"><i class="fas fa-shopping-cart"></i>Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
   <!-- next section -->
-  
-  
-  <div class="container mt-5 mb-5">
-    <h2>Mens Jacket</h2>
-    <div class="row">
-      <div class="col">
-        <div class="card no-border h-100 shadow p-3">
-          <div class="image-container d-flex p-2 align-items-center justify-content-center">
-            <img src="images/dress1.png" alt="">
-          </div>
-          <div class="card-body">
-            <h3 class="card-title">Yellow Coat Jacket </h3>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum?</p>
 
-          </div>
-          <div class="card-footer no-border d-flex align-items-center justify-content-between">
-            <h4 class="custom-text-color">$230</h4>
-            <button class="btn custom-button btn-lg"><i class="fas fa-shopping-cart"></i>Buy Now</button>
+    <div id="about" class="container options mt-5 mb-5">
+      <div class="row g-2 d-flex align-items-center justify-content-center">
+        <div class="col-md-6 order-md-last">
+          <div class="img-container">
+            <img class="w-100 p-2" src="icons/people.png" alt="" srcset="">
           </div>
         </div>
-      </div>
-      <div class="col">
-        <div class="card no-border h-100 shadow p-3">
-          <div class="image-container d-flex p-2 align-items-center justify-content-center">
-            <img src="images/dress2.png" alt="">
-          </div>
-          <div class="card-body">
-            <h3 class="card-title">Ladies Jacket </h3>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum?</p>
-
-          </div>
-          <div class="card-footer no-border d-flex align-items-center justify-content-between">
-            <h4 class="custom-text-color">$230</h4>
-            <button class="btn custom-button btn-lg"><i class="fas fa-shopping-cart"></i>Buy Now</button>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card no-border h-100 shadow p-3">
-          <div class="image-container d-flex p-2 align-items-center justify-content-center">
-            <img src="images/dress3.png" alt="">
-          </div>
-          <div class="card-body">
-            <h3 class="card-title">Woman Leather Jacket </h3>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum?</p>
-
-          </div>
-          <div class="card-footer no-border d-flex align-items-center justify-content-between">
-            <h4 class="custom-text-color">$230</h4>
-            <button class="btn custom-button btn-lg"><i class="fas fa-shopping-cart"></i>Buy Now</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  
-  <div class="container mt-5">
-    <h2>Women Jacket</h2>
-    <div class="row">
-      <div class="col">
-        <div class="card no-border h-100 shadow p-3">
-          <div class="image-container d-flex p-2 align-items-center justify-content-center">
-            <img src="images/dress4.png" alt="">
-          </div>
-          <div class="card-body">
-            <h3 class="card-title">Snowboard Jacket Mens</h3>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum?</p>
-
-          </div>
-          <div class="card-footer no-border d-flex align-items-center justify-content-between">
-            <h4 class="custom-text-color">$230</h4>
-            <button class="btn custom-button btn-lg"><i class="fas fa-shopping-cart"></i>Buy Now</button>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card no-border h-100 shadow p-3">
-          <div class="image-container d-flex p-2 align-items-center justify-content-center">
-            <img src="images/dress5.png" alt="">
-          </div>
-          <div class="card-body">
-            <h3 class="card-title">Man Leather Jackets</h3>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum?</p>
-
-          </div>
-          <div class="card-footer no-border d-flex align-items-center justify-content-between">
-            <h4 class="custom-text-color">$230</h4>
-            <button class="btn custom-button btn-lg"><i class="fas fa-shopping-cart"></i>Buy Now</button>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card no-border h-100 shadow p-3">
-          <div class="image-container d-flex p-2 align-items-center justify-content-center">
-            <img src="images/dress6.png" alt="">
-          </div>
-          <div class="card-body">
-            <h3 class="card-title">Man Casual Jackets</h3>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum?</p>
-
-          </div>
-          <div class="card-footer no-border d-flex align-items-center justify-content-between">
-            <h4 class="custom-text-color">$230</h4>
-            <button class="btn custom-button btn-lg"><i class="fas fa-shopping-cart"></i>Buy Now</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- next section -->
-  <div class="container options mt-5 mb-5">
-    <div class="row d-flex align-items-center justify-content-center">
-      <div class="col-md-6">
-        <div class="all-items d-flex flex-column">
-          <div class="shadow single-item d-flex justify-content-center">
-            <img class="p-2" src="icons/image 12.png" alt="">
-            <div class="single-item-info p-2">
-              <h3>Find the Perfect Fit</h3>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, reiciendis?</p>
+        <div class="col-md-6 order-md-first">
+          <div class="all-items d-flex flex-column">
+            <div class="shadow single-item d-flex align-items-center p-2">
+              <img class="p-2" src="icons/image 12.png" alt="">
+              <div class="single-item-info p-2">
+                <h3>Find the Perfect Fit</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, reiciendis?</p>
+              </div>
             </div>
-          </div>
-          <div class="shadow single-item d-flex justify-content-center">
-            <img class="p-2" src="icons/image 13.png" alt="">
-            <div class="single-item-info p-2">
-              <h3>Free Exchanges</h3>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, reiciendis?</p>
+            <div class="shadow single-item d-flex align-items-center p-2">
+              <img class="p-2" src="icons/image 13.png" alt="">
+              <div class="single-item-info p-2">
+                <h3>Free Exchanges</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, reiciendis?</p>
+              </div>
             </div>
-          </div>
-          <div class="shadow single-item d-flex justify-content-center">
-            <img class="p-2" src="icons/image 14.png" alt="">
-            <div class="single-item-info p-2">
-              <h3>Contact Our Seller</h3>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, reiciendis?</p>
+            <div class="shadow single-item d-flex align-items-center p-2">
+              <img class="p-2" src="icons/image 14.png" alt="">
+              <div class="single-item-info p-2">
+                <h3>Contact Our Seller</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, reiciendis?</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-md-6">
-        <div class="img-container">
-          <img class="w-100 p-2" src="icons/people.png" alt="" srcset="">
+    </div>
+
+  <!-- subscribe section -->
+    <section>
+      <div id="contact" class="container">
+        <div class="row shadow subscribe-section p-5 m-5 text-center rounded">
+            <h5 class="custom-text-color mb-4">Get latest exciting deals directly to your mail</h5>
+          <div class="col-md-8 offset-md-2">
+            <div class="subscribe-option d-flex flex-column">
+              <input type="text" class="form-control p-3 mb-2" placeholder="Enter you email address">
+              <button class="p-3 btn subscribe-button mb-5">Subscribe</button>
+            </div>
+          </div>
+        <h5 class="custom-text-color">Contact us at</h5>
+        <h5 class="custom-text-color">johndoe@mail.com</h5>
         </div>
       </div>
-    </div>
-  </div>
+    </section>
 
 
 
 
 </main>
-  <script src="js/bootstrap.min.js"></script>
+<!-- footer section -->
+<footer class="text-center">
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In?</p>
+</footer>
+
+<!-- all the script tags -->
+
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
